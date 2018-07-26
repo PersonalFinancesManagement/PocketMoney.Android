@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--The cheackableBehavior=single determines that only one of the items can be pressed per time-->
+  <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_action_dashboard"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_entries"
+        android:icon="@drawable/ic_action_attach_money"
+        android:title="Entries"/>
+    <item
+        android:id="@+id/nav_friends"
+        android:icon="@drawable/ic_action_insert_chart"
+        android:title="Top Expenses"/>
+
+  </group>
+
+
+  <group>
+    <item
+        android:icon="@drawable/ic_action_question_answer"
+        android:title="Help"/>
+    <item
+        android:icon="@drawable/ic_action_settings"
+        android:title="Configurations"/>
+  </group>
+
+  <group>
+    <item
+        android:icon="@drawable/ic_action_cloud_upload"
+        android:title="Sync"/>
+  </group>
+
+</menu>
